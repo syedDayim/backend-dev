@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "backend",
+    "javascript",
+    "syed dayim"
+  ],
   "type": "module",
   "author": "syedDayim",
   "license": "ISC",
-  "description": "This is the backend journey"
+  "description": "This is the backend journey",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
